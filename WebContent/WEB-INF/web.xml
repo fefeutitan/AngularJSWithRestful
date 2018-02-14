@@ -16,7 +16,7 @@
         
      <init-param>
         <param-name>jersey.config.server.provider.packages</param-name>
-        <param-value>book</param-value>
+        <param-value>Product</param-value>
     </init-param>
     
         
