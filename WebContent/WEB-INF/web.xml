@@ -10,6 +10,17 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
         
+    <servlet>
+        <servlet-name>JAVA WS</servlet-name>
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+        
+     <init-param>
+        <param-name>jersey.config.server.provider.packages</param-name>
+        <param-value>book</param-value>
+    </init-param>
+    
+        
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>Product</servlet-name>
